@@ -6,10 +6,9 @@ def run_guessing_game
   while guess != "exit" do
     if guess == rand_num
       puts "You guessed the correct number!"
-    elsif guess != rand_num
+    else guess != rand_num
     puts "Sorry! The computer guessed #{rand_num}"
-    else 
-    user_input == "exit"
+  end
     puts "Goodbye!"
   end
 end
