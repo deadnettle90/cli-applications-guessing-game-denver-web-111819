@@ -4,8 +4,7 @@ def run_guessing_game
   prompt_user = "Guess a number between 1 and 6"
   guess = gets.chomp
   if guess == rand_num
-        puts "You guessed the correct number!"
-    puts "Sorry! The computer guessed 6."
+      puts "You guessed the correct number!"
   else 
     puts "Sorry! The computer guessed 6."
   end
